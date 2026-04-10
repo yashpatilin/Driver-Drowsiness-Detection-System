@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue_500
+color blue_700
+color gray_bg
+color green_status
+color red_status
+color white
+id btnConnectBluetooth
+id btnConnectStream
+id cameraPreview
+id earChart
+id etBluetoothMac
+id rvLogs
+id tvBluetoothStatus
+id tvDriverStatus
+id tvHistoryEvent
+id tvTotalDrowsyTime
+layout activity_main
+layout log_item
+string app_name
+style Theme.DriverDrowsinessDetection

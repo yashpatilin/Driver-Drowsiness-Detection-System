@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Yash Patil\\.gradle\\daemon\\8.2\\com.example.drowsiness.app-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Yash Patil\\.gradle\\daemon\\8.2\\com.example.drowsiness.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yash Patil\\.gradle\\daemon\\8.2\\com.example.drowsiness.app-mergeDebugResources-45:\\layout\\log_item.xml",
+        "source": "C:\\Users\\Yash Patil\\.gradle\\daemon\\8.2\\com.example.drowsiness.app-main-48:\\layout\\log_item.xml"
+    },
+    {
+        "merged": "com.example.drowsiness.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.example.drowsiness.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.drowsiness.app-mergeDebugResources-45:/layout/log_item.xml",
+        "source": "com.example.drowsiness.app-main-48:/layout/log_item.xml"
+    }
+]

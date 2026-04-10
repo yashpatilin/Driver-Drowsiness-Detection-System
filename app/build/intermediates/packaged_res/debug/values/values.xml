@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_700">#FF1976D2</color>
+    <color name="gray_bg">#FFF5F5F5</color>
+    <color name="green_status">#FF4CAF50</color>
+    <color name="red_status">#FFF44336</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Driver Drowsiness</string>
+    <style name="Theme.DriverDrowsinessDetection" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
