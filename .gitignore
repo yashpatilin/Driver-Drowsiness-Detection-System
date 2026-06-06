@@ -3,23 +3,20 @@
 build/
 */build/
 
-# Local config
-local.properties
-
 # IDE
 .idea/
 *.iml
 
-# OS
-.DS_Store
+# Local config
+local.properties
 
-# Logs
-*.log
+# APKs
+*.apk
+
+# Memory dumps
+*.hprof
 
 # Android
 captures/
 .externalNativeBuild/
 .cxx/
-
-# App build outputs
-app/build/

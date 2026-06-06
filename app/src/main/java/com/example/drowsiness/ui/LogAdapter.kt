@@ -21,10 +21,12 @@ class LogAdapter(private var logs: List<DrowsinessLog>) : RecyclerView.Adapter<L
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val log = logs[position]
-        val timeString = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(Date(log.timestamp))
+        val timeString = SimpleDateFormat("MMM dd, hh:mm a", Locale.getDefault()).format(Date(log.timestamp))
         val durationSec = log.duration / 1000f
-        val formattedString = String.format(Locale.getDefault(), "%s \u2192 %s (%.1f sec)", timeString, log.status, durationSec)
-        holder.binding.tvHistoryEvent.text = formattedString
+        
+        holder.binding.tvTimestamp.text = timeString
+        holder.binding.tvDuration.text = String.format(Locale.getDefault(), "Duration: %.1f sec", durationSec)
+        holder.binding.tvSeverity.text = log.status
     }
 
     override fun getItemCount() = logs.size
